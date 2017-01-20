@@ -1,0 +1,137 @@
+/* ================
+	GENERAL
+=================== */
+
+.section-title .dw-divider > div {
+	width: 20%;
+    border: 1px solid #ffb80c;
+}
+.dw-divider > div {
+	width: 20%;
+    border: 1px solid #ffb80c;
+}
+
+/* ================
+	TOP BAR
+=================== */
+
+.top-bar {
+	background: #ffb80c;
+}
+.user-bar-mobile .fa-user-circle,
+.user-bar-mobile .fa-database,
+.user-bar-mobile .fa-sign-out {
+	color: #ffb80c;
+}
+
+/* Login */
+
+.la-navbar a:hover,
+.la-navbar a:active,
+.la-navbar a:focus {
+	color: #ffb80c;
+}
+
+/*===============
+	FEATURED PROMOS
+===============*/
+
+.featured-promo .promo-description a {
+	color: #ffb80c;
+}
+
+/* ==================
+	FOOTER
+====================*/
+
+footer .fa.fa-check {
+	color:#ffb80c;
+}
+
+/*===============
+	BUTTONS
+===============*/
+ 
+/* Primary */
+.btn-primary {
+    background: #ffb80c;
+    color: #1e1e1e !important;
+}
+ .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #ffc946;
+    color: #1e1e1e !important;
+}
+ .btn-primary:active, .btn-primary.active {
+    background: #c59210;
+    color: #1e1e1e !important;
+    box-shadow: none;
+}
+
+/*=========================================
+	BLOG STYLES
+=========================================*/
+
+/*========== PROMO-LIST ==============*/
+
+.promo-list {
+	
+}
+
+.promo-list .description a {
+	color:#ffb80c !important;
+}
+
+.promo-list .header:hover,
+.promo-list .header:focus,
+.promo-list .header:active {
+	color:#ffb80c !important;
+}
+
+
+/*========== SINGLE POST ==============*/
+.post-content a {
+	color: #ffb80c;
+}
+
+.post-details .dw-divider > div {
+	width: 20%;
+    border: 1px solid #ffb80c;
+}
+
+/*========== SIDEBAR ==============*/
+aside .dw-divider > div {
+	width: 20%;
+    border: 1px solid #ffb80c;
+}
+/* Pagination */
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    background-color: #ffb80c;
+    border-color: #ffb80c;
+}
+
+.pagination>li>a, .pagination>li>a, .pagination>li>span, .pagination>li>span {
+    color: #ffb80c;
+}
+
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+    color: #ffb80c;
+}
+
+/*============END BLOG STYLES================= */
+
+/*========================
+	NAVBAR MOBILE
+========================*/
+
+
+.navbar-mobile-nav a {
+	color: #ffb80c;
+}
+
+/*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+#menu a > li {
+    color: #ffb80c;
+}
