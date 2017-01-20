@@ -60,18 +60,26 @@
       <div class="col-md-8">
       
         <div class="login-bar pull-right">
-          <!--<img src="images/icon-avatar.png" class="img-rounded">  
-          <div class="login-info">
-            <div class="login-welcome">Bienvenido <b>Alejandro</b></div>
-            <div class="login-action"><a href="#!">Ir al Panel</a> | <a href="#!">Salir <i class="fa fa-sign-out" aria-hidden="true"></i></a></div>
-          </div>-->
-          <div class="login-button">
-              <a href="#!" class="btn btn-secondary">REGISTRARSE <i class="fa fa-check" aria-hidden="true"></i></a>
-              <a href="#!" class="btn btn-default">INICIAR SESIÓN <i class="fa fa-lock" aria-hidden="true"></i></a>
+          <div class="login-button">       
+              
+              <form class="form-inline">
+                <button type="submit" class="btn btn-sm btn-secondary">REGISTRARSE <i class="fa fa-check" aria-hidden="true"></i></button>
+                <div class="form-group">
+                  <input type="email" class="form-control input-sm" placeholder="Usuario">
+                </div>
+
+                <div class="form-group">
+                  <input type="password" class="form-control input-sm" placeholder="Contraseña">
+                </div>
+
+                <button type="submit" class="btn btn-sm btn-default">INICIAR SESIÓN <i class="fa fa-lock" aria-hidden="true"></i></button>
+                 <div class="checkbox"><label><input type="checkbox"> Recordar contraseña /</label></div> <label><a href="#!">¿Has olvidado tu contraseña?</a></label>
+              </form>
+         
           </div>
         </div>     
       
-      </div>
+      </div> <!-- Col Md 8 -->
     </div>
 
     <div class="row">
@@ -110,6 +118,8 @@
 
 <div class="user-bar-mobile visible-sm visible-xs">
 <a href="#!" class="btn btn-primary">REGISTRARSE <i class="fa fa-check" aria-hidden="true"></i></a> <a href="#!" class="btn btn-default">INICIAR SESIÓN <i class="fa fa-lock" aria-hidden="true"></i></a>
+
+
 </div>
 <!-- /.MOBILE INFO -->
 
