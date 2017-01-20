@@ -974,6 +974,7 @@ aside .dw-divider > div {
 	position: fixed;
 	left:0;
 	top:40%;
+	 z-index: 999;
 }
 
 .theme-selector .blue {
